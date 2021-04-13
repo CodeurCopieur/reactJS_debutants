@@ -2,7 +2,7 @@ import React from 'react';
 
 const Car = ({color, year, name}) => {
 
-  const colorInfo = color ? (<p>Couleur : { color }</p>) : ( <p>Couleur : Néant</p>)
+  const colorInfo = color ? (`${ color }`) : ('Couleur : Néant');
 
   if(name) {
     return (
@@ -10,7 +10,7 @@ const Car = ({color, year, name}) => {
         <h1>Voiture</h1>
         <p> Marque: { name }</p>
         <p> Age: { year } ans</p>
-        { colorInfo }
+        <p>Couleur : { colorInfo } </p>
       </div>
     )
   } else {
