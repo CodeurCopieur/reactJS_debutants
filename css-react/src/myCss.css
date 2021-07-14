@@ -10,3 +10,24 @@
 .blue {
   color: blue;
 }
+
+.bigFont {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+  margin-right: 10px;
+}
